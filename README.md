@@ -1,6 +1,9 @@
 # py-passgen
 
-**dependencies**: 
+generates a secure password with option to choose length
+
+**dependencies:** 
+
 cli:
 pyperclip
 
