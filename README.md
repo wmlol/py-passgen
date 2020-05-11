@@ -1,6 +1,7 @@
 # py-passgen
 
-dependencies: 
+*dependencies: 
+
 	cli:
 	pyperclip
 
