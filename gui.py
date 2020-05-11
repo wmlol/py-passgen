@@ -11,7 +11,9 @@ class App(QWidget):
         length, okPressed = QInputDialog.getInt(self, "password length","password length:", 16, 1, 64, 1)
         if okPressed and length:
             pyperclip.copy(''.join(random.choice(string.ascii_letters + string.digits + string.punctuation) for i in range(length)))
-
+            print('password copied to clipboard')
+            exit()
+            
 if __name__ == '__main__':
     app = QApplication(sys.argv)
     ex = App()
