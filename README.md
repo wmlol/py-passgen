@@ -6,5 +6,5 @@ CLI:
 pyperclip (pip3 install pyperclip) 
 
 GUI:  
-PyQt5 (pip3 install PyQt5) 
+PyQt5 (pip3 install PyQt5)  
 pyperclip (pip3 install pyperclip)
