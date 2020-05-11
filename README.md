@@ -1,12 +1,10 @@
 # py-passgen
+generates a secure password with length specified and copies it to your clipboard
 
-generates a secure password with option to choose length
+Dependencies:  
+CLI:  
+pyperclip (pip3 install pyperclip) 
 
-**dependencies:** 
-
-cli:
-pyperclip
-
-gui:
-pyperclip
-PyQt5
+GUI:  
+PyQt5 (pip3 install PyQt5)  
+pyperclip (pip3 install pyperclip)
