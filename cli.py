@@ -11,7 +11,7 @@ def get_length():
         get_length()
 
 def generate_password(length):
-    charset = string.ascii_letters + string.digits + string.punctuation
+    charset = string.ascii_letters + string.digits
     password = ''.join(random.choice(charset) for i in range(length))
     pyperclip.copy(password)
     print('password copied to clipboard')
