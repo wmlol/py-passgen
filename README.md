@@ -1,10 +1,9 @@
 # py-passgen
 
-*dependencies: 
+**dependencies**: 
+cli:
+pyperclip
 
-	cli:
-	pyperclip
-
-	gui:
-	pyperclip
-	PyQt5
+gui:
+pyperclip
+PyQt5
